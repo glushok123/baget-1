@@ -17,8 +17,14 @@
     <title>@yield('title')</title>
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Багетная мастерская">
+    <meta property="og:description" content="
+        Мы оформляем в багетные рамки постеры,
+        фотографии, изображения, вышивки и многое другое.
+        Печатаем на холсте, на глянцевой и матовой бумаге любые форматы изображений.
+        Делаем красивые модульные картины для Вашего интерьера. Накатываем на пенокартон,
+        делаем натяжку на подрамник, предоставляем услуги дизайнера.
+    ">
 
     <meta property="og:site_name" content="">
     <meta property="og:image" content="images/offer-img.png">
@@ -26,6 +32,10 @@
     <meta property="og:image:width" content="679">
     <meta property="og:image:height" content="386">
     <meta property="og:image:alt" content="">
+    <meta name="geo.position" content="55.7411820;37.6301270">
+    <meta name="geo.region" content="RU-">
+    <meta name="geo.placename" content="Климентовский пер., 6, Москва, Россия, 115184">
+
 
     <!--script type="text/javascript" async charset="utf-8" src="{{ asset('template/js/all.js') }}"></script>
     <link rel="icon" href="/images/JService знак.png">
@@ -67,19 +77,15 @@
             <div id="preloader">
                 <div id="ctn-preloader" class="ctn-preloader">
                     <div class="animation-preloader">
-                        <div class="icon"><img src="images/logo/logo_01.svg" alt="" class="m-auto d-block" width="40"></div>
+                        <div class="icon">
+                            <!--img src="images/logo/logo_01.svg" alt="" class="m-auto d-block" width="40"--></div>
                         <div class="txt-loading mt-3">
-							<span data-text-preloader="J" class="letters-loading">
-								J
+							<span data-text-preloader="БАГЕТНАЯ" class="letters-loading">
+								БАГЕТНАЯ
 							</span>
-                            <span data-text-preloader="A" class="letters-loading">
-								A
-							</span>
-                            <span data-text-preloader="N" class="letters-loading">
-								N
-							</span>
-                            <span data-text-preloader="O" class="letters-loading">
-								O
+                            <br>
+                            <span data-text-preloader="БАГЕТНАЯ" class="letters-loading">
+								Мастерская
 							</span>
                         </div>
                     </div>

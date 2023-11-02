@@ -11,14 +11,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-7">
-                        <h1 class="hero-heading fw-bold tx-dark">We’r Help <br> to Achive your <span class="position-relative d-inline-block">Success.</span></h1>
-                        <p class="text-lg mb-60 pt-50 pe-xl-5 lg-pt-30 lg-mb-40">Agency work with top rated talented people provide qulaity services.</p>
+                        <h1 class="hero-heading fw-bold tx-dark">Багетная<br> <span class="position-relative d-inline-block">Мастерска № 1</span></h1>
+                        <p class="text-lg mb-60 pt-50 pe-xl-5 lg-pt-30 lg-mb-40">Предлагаем большой спектр продукции: изготовление рамок для фотографий, картин, плакатов и других работ.</p>
                         <form action="#" class="position-relative bg-white">
                             <label class="position-absolute fs-15">Email address</label>
                             <input type="email" placeholder="demomail@jano.gov" class="fs-17 position-absolute w-100 tx-dark fw-500">
                             <button class="tran3s position-absolute">SUBSCRIBE</button>
                         </form>
-                        <div class="pr-info fw-500 fs-20 tx-dark mt-35">Over <span class="fw-bold text-decoration-underline">150,000+ client</span> all over the world.</div>
+                        <div class="pr-info fw-500 fs-20 tx-dark mt-35">Более <span class="fw-bold text-decoration-underline">15,000+ клиентов</span> в Москве</div>
                     </div>
                 </div>
                 <div class="card-one shapes bg-white wow fadeInRight">
@@ -432,6 +432,6 @@
 
 @endsection
 
-@section('description', '')
-@section('keywords', '')
-@section('title', '')
+@section('description', 'Понадобились услуги недорогой багетной мастерской в Москве? Наша Багетная Мастерская порадует Вас доступными ценами. Мы - лучшие в качественном оформлении багетными рамками.')
+@section('keywords', 'рамки для картин, багетная мастерская, багетная мастерская в Москве, багетная мастерская недорого, багет, паспарту, картины ')
+@section('title', 'Багетная мастерская - качественно и недорого! ')
