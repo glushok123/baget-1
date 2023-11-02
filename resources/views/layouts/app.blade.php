@@ -36,23 +36,7 @@
     <meta name="geo.region" content="RU-">
     <meta name="geo.placename" content="Климентовский пер., 6, Москва, Россия, 115184">
 
-
-    <!--script type="text/javascript" async charset="utf-8" src="{{ asset('template/js/all.js') }}"></script>
-    <link rel="icon" href="/images/JService знак.png">
-        <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <script async src="{{ asset('template/js/tag.js') }}"></script>
-    <script src="{{ asset('template/js/rrweb.min.js') }}"></script>
-
-
-
-    <link rel="stylesheet" href="{{ asset('template/css/style.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('template/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('template/css/swiper-bundle.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('template/css/media.css') }}">
-    <link rel="stylesheet" href="{{ asset('template/css/adaptive.css') }}">
-    <link rel="stylesheet" href="{{ asset('template/css/new-style.css') }}"-->
 
     <!-- For Window Tab Color -->
     <!-- Chrome, Firefox OS and Opera -->
@@ -62,7 +46,7 @@
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#1d2b40">
 
-    <link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+    <link rel="icon" type="image/png" sizes="100x100" href="/icon.svg">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}" media="all">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}" media="all">
@@ -78,13 +62,13 @@
                 <div id="ctn-preloader" class="ctn-preloader">
                     <div class="animation-preloader">
                         <div class="icon">
-                            <!--img src="images/logo/logo_01.svg" alt="" class="m-auto d-block" width="40"--></div>
+                            <img src="/logo.png" alt="" class="m-auto d-block" width="340"></div>
                         <div class="txt-loading mt-3">
 							<span data-text-preloader="БАГЕТНАЯ" class="letters-loading">
 								БАГЕТНАЯ
 							</span>
                             <br>
-                            <span data-text-preloader="БАГЕТНАЯ" class="letters-loading">
+                            <span data-text-preloader="Мастерская" class="letters-loading">
 								Мастерская
 							</span>
                         </div>
@@ -100,10 +84,10 @@
             <header class="theme-main-menu sticky-menu theme-menu-one">
                 <div class="inner-content position-relative">
                     <div class="d-flex align-items-center justify-content-between">
-                        <div class="logo order-lg-0"><a href="index.html" class="d-block"><img src="images/logo/logo_01.png" alt="" width="95"></a></div>
+                        <div class="logo order-lg-0"><a href="/" class="d-block"><img src="/logo.png" alt="" width="250" style=""></a></div>
 
                         <div class="right-widget d-flex align-items-center order-lg-3">
-                            <a href="contact-us-v2.html" class="contact-btn-one fs-16 fw-500 text-white tran3s d-none d-lg-block">Contact us</a>
+                            <a href="contact-us-v2.html" class="contact-btn-one fs-16 fw-500 text-white tran3s d-none d-lg-block">Конструктор</a>
                         </div> <!-- /.right-widget -->
 
                         <nav class="navbar navbar-expand-lg order-lg-2">
@@ -113,98 +97,11 @@
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
                                     <li class="d-block d-lg-none"><div class="logo"><a href="index.html" class="d-block"><img src="images/logo/logo_01.png" alt="" width="95"></a></div></li>
-                                    <li class="nav-item active dropdown mega-dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <div class="row justify-content-center gx-2">
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_01.jpg" alt="" class="w-100"></span>
-                                                            <span>insurance</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-2.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_02.jpg" alt="" class="w-100"></span>
-                                                            <span>Sass Product</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-3.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_03.jpg" alt="" class="w-100"></span>
-                                                            <span>App Landing</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-4.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_04.jpg" alt="" class="w-100"></span>
-                                                            <span>Personal Portfolio</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-5.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_05.jpg" alt="" class="w-100"></span>
-                                                            <span>N.P. Charity</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-6.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_06.jpg" alt="" class="w-100"></span>
-                                                            <span>SEO & Digital Agency</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-7.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_07.jpg" alt="" class="w-100"></span>
-                                                            <span>Web Hosting</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-8.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_08.jpg" alt="" class="w-100"></span>
-                                                            <span>Crypto</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-9.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_09.jpg" alt="" class="w-100"></span>
-                                                            <span>Lead Generation</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-10.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_10.jpg" alt="" class="w-100"></span>
-                                                            <span>Agency Modern</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-11.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_11.jpg" alt="" class="w-100"></span>
-                                                            <span>Design Agency</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-12.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_12.jpg" alt="" class="w-100"></span>
-                                                            <span>Education</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <a href="index-13.html" class="d-block dropdown-item text-center">
-                                                            <span class="img-meta"><img src="images/menu/home_13.jpg" alt="" class="w-100"></span>
-                                                            <span>Real Estate</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-lg-2 mt-15">
-                                                        <span class="img-meta"><img src="images/menu/home_cs.jpg" alt="" class="w-100"></span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                    <li class="nav-item active ">
+                                        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Главная</a>
                                     </li>
                                     <li class="nav-item dropdown mega-dropdown-md">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pages</a>
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Услуги</a>
                                         <ul class="dropdown-menu">
                                             <li>
                                                 <div class="row">
@@ -255,7 +152,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Portfolio</a>
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Работы</a>
                                         <ul class="dropdown-menu">
                                             <li><a href="portfolio-v1.html" class="dropdown-item"><span>Portfolio 01</span></a></li>
                                             <li><a href="portfolio-v2.html" class="dropdown-item"><span>Portfolio 02</span></a></li>
@@ -274,7 +171,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Blog</a>
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Статьи</a>
                                         <ul class="dropdown-menu">
                                             <li><a href="blog-v1.html" class="dropdown-item"><span>List With sidebar</span></a></li>
                                             <li><a href="blog-v2.html" class="dropdown-item"><span>Grid With sidebar</span></a></li>
@@ -283,7 +180,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Contact</a>
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Контакты</a>
                                         <ul class="dropdown-menu">
                                             <li><a href="contact-us.html" class="dropdown-item"><span>Contact- insurance</span></a></li>
                                             <li><a href="contact-us-v2.html" class="dropdown-item"><span>Contact- Agency</span></a></li>
@@ -295,7 +192,7 @@
                                 <!-- Mobile Content -->
                                 <div class="mobile-content d-block d-lg-none">
                                     <div class="d-flex flex-column align-items-center justify-content-center mt-70">
-                                        <a href="contact-us-v2.html" class="contact-btn-one fs-16 fw-500 text-white tran3s">Contact us</a>
+                                        <a href="contact-us-v2.html" class="contact-btn-one fs-16 fw-500 text-white tran3s">Конструктор</a>
                                     </div>
                                 </div> <!-- /.mobile-content -->
                             </div>
