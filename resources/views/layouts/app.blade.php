@@ -96,7 +96,7 @@
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
-                                    <li class="d-block d-lg-none"><div class="logo"><a href="index.html" class="d-block"><img src="images/logo/logo_01.png" alt="" width="95"></a></div></li>
+                                    <li class="d-block d-lg-none"><div class="logo"><a href="index.html" class="d-block"><img src="/logo.png" alt="" width="250"></a></div></li>
                                     <li class="nav-item active ">
                                         <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Главная</a>
                                     </li>
