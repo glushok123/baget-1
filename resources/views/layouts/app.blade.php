@@ -36,8 +36,6 @@
     <meta name="geo.region" content="RU-">
     <meta name="geo.placename" content="Климентовский пер., 6, Москва, Россия, 115184">
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
     <!-- For Window Tab Color -->
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#1d2b40">
